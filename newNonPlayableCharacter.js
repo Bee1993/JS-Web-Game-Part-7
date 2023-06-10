@@ -67,3 +67,7 @@ async function walkEast(time){
     await sleep(time)
     return stop()
 }
+async function walkSouth(time){
+    await sleep(time)
+    return stop()
+}
